@@ -1,0 +1,5 @@
+class BicyclesController < ApplicationController
+  def index
+  end
+
+end

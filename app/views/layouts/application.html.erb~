@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matches</title>
+
+</head>
+<body>
+<p>This text is from application.html.erb</p>
+<%= yield %>
+
+</body>
+</html>
