@@ -4,6 +4,7 @@ gem 'rails', '3.1.3'
 gem 'sqlite3'
 gem 'annotate', '~> 2.4.1.beta'
 gem 'jquery-rails'
+gem 'therubyracer', '0.9.9'
 
 group :assets do
   gem 'sass-rails',   '~> 3.1.5'

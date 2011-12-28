@@ -1,0 +1,7 @@
+{ "aaData" : 
+[
+<% @customers.each do |customer| %>
+["<%= customer.last_name %>", "<%= customer.first_name %>"] <%= ", " unless customer == @customers.last %>
+<% end %>
+]
+}
