@@ -7,5 +7,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require welcome
+//= require temps
 //= require DataTables-1.8.2/media/js/jquery.dataTables.js
 
