@@ -16,3 +16,4 @@
 
 # Ignore all temporary emacs files
 *~
+.DS_Store
