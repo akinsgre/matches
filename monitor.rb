@@ -15,8 +15,10 @@ local_filename = dir + "/temps.txt"
     
     output = %x[/Applications/TemperatureMonitor.app//Contents/MacOS/tempmonitor -f | awk '{print $1}']  
 
-    posturi = URI.parse("http://localhost:3000/update")
-    post_args = {"key" => "Q384RIIQ10CLMZ9V", "field1" => output, "field2" => output}
+
+   posturi = URI.parse("http://localhost:3001/update")
+    post_args = {"key" => "2X4DM9L8HI48AHDT", "field1" => output}
+
     response = Net::HTTP.post_form(posturi, post_args)
     puts output + " posted as " + response.code.to_s
 
